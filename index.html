@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <h1>Computer Store</h1>
+    
+    <div class="div_all">
+        <div class="general_div">
+            <h2>Joe Banker</h2>
+            <div class="align_class">
+                <h3>Balance</h3>
+                <p><span id="balanceMoney">0</span> €</p>
+            </div>
+            <div class="align_class hide" id="div_debt">
+                <h3>Current debt:</h3>
+                <p><span id="currentDebt">0</span> €</p>
+            </div>
+            <button id="loanButton">Get a loan</button>
+        </div>
+        <div class="general_div">
+            <h2>Work</h2>
+            <div class="align_class">
+                <h3>Pay</h3>
+                <p id="payMoney"><span id="amountToAdd">0</span> €</p>
+            </div>
+            <div class="all_buttons">
+                <button id="bankButton">Bank</button>
+                <button id="workButton">Work</button>
+                <button class="hide" id="repayTotalLoan">Repay Loan</button>
+            </div>
+        </div>
+        <div class="general_div">
+            <h2>Laptops</h2>
+            <select name="laptops" id="laptops"></select>
+            <p class="featuresClass">Features: </p>
+            <span id="features"></span>
+        </div>
+    </div>
+    <div class="div_final">
+        <img id="laptopImg" src="https://hickory-quilled-actress.glitch.me/assets/images/1.png" alt="Image could not be found.">
+        <div>
+            <h3 id="laptopTitle"></h3>
+            <p id="laptopDescription"></p>
+        </div>
+        <div>
+            <p class="laptopPrice1"><span id="laptopPrice">0</span> €</p>
+            <button id="buyLaptopButton">Buy Now</button>
+        </div>
+    </div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
